@@ -1,11 +1,11 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-function combine(a: string, b: string): number {
+function spoji(a: string, b: string): number {
   return a + b;
 }
 
-// DO NOT CHANGE THE CODE BELOW
-console.log(combine('Hello', 'World!')); // Should output "HelloWorld!"
+// NE MIJENJAJTE NIŠTA ISPOD OVOG REDA KODA
+console.log(spoji('Hello', 'World!')); // Treba ispisati "HelloWorld!"
 
-// not important
+// nije važno
 export {};

@@ -1,11 +1,11 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
 const introText = `
-Welcome to type4u exercises!
+Dobrodošli na type4u vježbe!
 
-This is a set of guided exercises to help you learn TypeScript.
-Each exercise is a TypeScript file that you need to fix/amend in order to make it work.
-When you are done with an exercise, remove the "// I AM NOT DONE" comment from the file and save it.
+Ovo je skup vođenih vježbi koje će vam pomoći u učenju TypeScript-a.
+Svaka vježba je TypeScript datoteka koju morate popraviti/izmijeniti da biste je učinili funkcionalnom.
+Kad završite vježbu, uklonite komentar "// I AM NOT DONE" iz datoteke i spremite ju.
 `;
 
 console.log(introText);

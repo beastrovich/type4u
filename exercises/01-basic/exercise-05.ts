@@ -1,13 +1,13 @@
-// HINT: Ensure correct type for side
+// HINT: Provjerite ispravan tip za stranicu
 
-function squareArea(side: ???) {
-  return side * side;
+function povrsinaKvadrata(stranica: ???) {
+  return stranica * stranica;
 }
 
-let area: number = squareArea('5');
+let povrsina: number = povrsinaKvadrata('5');
 
-// DO NOT CHANGE THE CODE BELOW
-console.log(area);
+// NE MIJENJAJTE KOD ISPOD
+console.log(povrsina);
 
-// not important
+// nevažno
 export {};

@@ -1,13 +1,13 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-let result = double('5');
+let rezultat = duplo('5');
 
-// DO NOT CHANGE THE CODE BELOW
-function double(num: number): number {
+// NE MIJENJAJTE KOD ISPOD
+function duplo(num: number): number {
   return num * 2;
 }
 
-console.log(result);
+console.log(rezultat);
 
-// not important
+// nevažno
 export {};

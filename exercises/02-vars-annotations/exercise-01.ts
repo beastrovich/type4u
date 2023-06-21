@@ -1,9 +1,9 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-const namesArray: number[] = ['James', 'David', 'Max'];
+const imena: number[] = ['James', 'David', 'Max'];
 
-// DO NOT CHANGE THE CODE BELOW
-console.log('Names:', namesArray);
+// NE MIJENJAJTE DONJI KOD
+console.log('Imena:', imena);
 
-// not important
+// nevažno
 export {};

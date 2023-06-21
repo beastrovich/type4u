@@ -1,25 +1,25 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-function processArray(nums: number[], callbackFunction) {
-  const result: any[] = [];
+function procesirajNiz(brojevi: number[], povratnaFunkcija) {
+  const rezultat: any[] = [];
 
-  for (let i = 0; i < nums.length; i++) {
-    result.push(callbackFunction(nums[i]));
+  for (let i = 0; i < brojevi.length; i++) {
+    rezultat.push(povratnaFunkcija(brojevi[i]));
   }
 
-  console.log(`Processed array: ${result}`);
-  return result;
+  console.log(`Procesirani niz: ${rezultat}`);
+  return rezultat;
 }
 
-// DO NOT CHANGE THE CODE BELOW
-type Callback = (num: number) => number;
+// NE MIJENJAJTE KOD ISPOD
+type PovratniPoziv = (broj: number) => number;
 
-function square(x: number): number {
+function kvadrat(x: number): number {
   return x * x;
 }
 
-const myArray: number[] = [1, 2, 3, 4, 5];
-processArray(myArray, square);
+const mojNiz: number[] = [1, 2, 3, 4, 5];
+procesirajNiz(mojNiz, kvadrat);
 
-// not important
+// nebitno
 export {};

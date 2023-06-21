@@ -1,14 +1,14 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-const name: number = 'James';
-const age: string = 25;
+const ime: number = 'James';
+const godine: string = 25;
 
 // DO NOT CHANGE THE CODE BELOW
-function createGreeting(personName: string, personAge: number): string {
-  return `${personName} is ${personAge} years old.`;
+function pozdrav(personName: string, personAge: number): string {
+  return `${personName} ima ${personAge} godina.`;
 }
 
-console.log(createGreeting(name, age));
+console.log(pozdrav(name, age));
 
 // not important
 export {};

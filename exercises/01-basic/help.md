@@ -1,32 +1,32 @@
-# TypeScript - Basic Syntax and Data Types
+# TypeScript - Osnovna sintaksa i vrste podataka
 
-1. Basic Syntax:
+1. Osnovna sintaksa:
 
-- Use `const`, `let`, or `var` to declare variables
-- Assign values with the `=` operator
-- Statements end with a semicolon (`;`)
-- Comments: Single-line (`//`) and Multi-line (`/* ... */`)
+- Koristite `const`, `let` ili `var` za deklariranje varijabli
+- Dodijelite vrijednosti pomoću operatora `=`
+- Izjave završavaju s točkom-zarezom (`;`)
+- Komentari: Jednolinijski (`//`) i Višelinijski (`/* ... */`)
 
-2. Data Types:
+2. Vrste podataka:
 
-- `boolean`: true or false
-- `number`: All numeric values (integers and floating-point)
-- `string`: Textual data
-- `array`: Array of values, denoted by `T[]` or `Array<T>`
-- `tuple`: Fixed-size array with different types, e.g., `[number, string]`
-- `enum`: Enumerable data structure
-- `void`: Represents no type (common for functions without return values)
-- `null`: Represents an absence of an object or value
-- `undefined`: Represents a variable not assigned yet
-- `any`: Can represent any data type
-- `unknown`: Like `any`, but less permissive
-- `never`: Represents a value that never occurs (e.g., a function that always throws an error)
+- `boolean`: true ili false
+- `number`: Sve numeričke vrijednosti (cjelobrojne i decimalne)
+- `string`: Tekstualni podaci
+- `array`: Niz vrijednosti, označen s `T[]` ili `Array<T>`
+- `tuple`: Niz fiksne veličine s različitim vrstama, npr., `[number, string]`
+- `enum`: Struktura podataka s mogućnostima nabrajanja
+- `void`: Predstavlja nedefiniranu vrstu (uobičajeno za funkcije bez povratnih vrijednosti)
+- `null`: Predstavlja odsutnost objekta ili vrijednosti
+- `undefined`: Predstavlja varijablu kojoj nije dodijeljena vrijednost
+- `any`: Može predstavljati bilo koju vrstu podataka
+- `unknown`: Slično kao `any`, ali manje dopustljivo
+- `never`: Predstavlja vrijednost koja se nikad ne događa (npr., funkcija koja uvijek izaziva pogrešku)
 
-3. Type Annotations:
+3. Označavanje tipova:
 
-- Declare variables' types explicitly, e.g., `let variableName: dataType;`
-- Examples:
-  ```
+- Eksplicitno deklarirajte tipove varijabli, npr., `let imeVarijable: vrstaPodataka;`
+- Primjeri:
+  ```ts
   let isDone: boolean = false;
   let age: number = 25;
   let name: string = 'John';

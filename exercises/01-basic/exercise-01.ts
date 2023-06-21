@@ -1,9 +1,9 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-let name: string = 20;
+let ime: string = 20;
 
-// DO NOT CHANGE THE CODE BELOW
-console.log(`My name is ${name}`);
+// NE MIJENJAJTE KOD ISPOD
+console.log(`Moje ime je ${ime}`);
 
-// not important
+// nevažno
 export {};

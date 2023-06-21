@@ -1,28 +1,28 @@
-# Variable Declarations and Type Annotations
+# Deklaracije varijabli i anotacije tipova
 
-1. Variable declarations using `let` and `const`:
+1. Deklaracija varijabli koristeći `let` i `const`:
 
-- Use `let` for mutable variables: `let age: number = 30;`
-- Use `const` for immutable constants: `const pi: number = 3.14;`
+- Koristite `let` za promjenjive varijable: `let age: number = 30;`
+- Koristite `const` za nepromjenjive konstante: `const pi: number = 3.14;`
 
-2. Basic type annotations:
+2. Osnovne anotacije tipova:
 
-- Number: `let num: number = 42;`
+- Broj: `let num: number = 42;`
 - String: `let str: string = 'hello';`
 - Boolean: `let isValid: boolean = true;`
 
-3. Array type annotations:
+3. Anotacije tipova za nizove:
 
-- Use `T[]` for arrays of type `T`: `let nums: number[] = [1, 2, 3];`
-- Use `Array<T>` for arrays of type `T`: `let strs: Array<string> = ['a', 'b', 'c'];`
+- Koristite `T[]` za nizove tipa `T`: `let nums: number[] = [1, 2, 3];`
+- Koristite `Array<T>` za nizove tipa `T`: `let strs: Array<string> = ['a', 'b', 'c'];`
 
-4. Tuple type annotations:
+4. Anotacije tipova za tuple:
 
-- Use `[T1, T2, ...]` for tuples: `let tuple: [string, number] = ['age', 30];`
+- Koristite `[T1, T2, ...]` za tuple: `let tuple: [string, number] = ['age', 30];`
 
-5. Enum type annotations:
+5. Anotacije tipova za enumeracije:
 
-- Use `enum` keyword to define:
+- Koristite ključnu riječ `enum` za definiranje:
   ```
   enum Color {
     Red,
@@ -32,25 +32,25 @@
   let myColor: Color = Color.Red;
   ```
 
-6. Type inference:
+6. Zaključivanje tipa:
 
-- TypeScript infers the type automatically: `let autoType = 'hello';` (string)
+- TypeScript automatski zaključuje tip: `let autoType = 'hello';` (string)
 
-7. Any type:
+7. Bilo koji tip:
 
-- Use `any` type if the specific type is unknown or can change: `let unknownType: any = 42;`
+- Koristite tip `any` ako je određeni tip nepoznat ili se može mijenjati: `let unknownType: any = 42;`
 
-8. Void, Null, and Undefined types:
+8. Tipovi Void, Null i Undefined:
 
-- Void: used for functions with no return value: `function logMessage(): void { console.log('Message'); }`
-- Null: for nullable types: `let nullableVar: number | null = null;`
-- Undefined: for undefined values: `let undefVar: number | undefined = undefined;`
+- Void: koristi se za funkcije bez povratne vrijednosti: `function logMessage(): void { console.log('Poruka'); }`
+- Null: za nullable tipove: `let nullableVar: number | null = null;`
+- Undefined: za nedefinirane vrijednosti: `let undefVar: number | undefined = undefined;`
 
-9. Type aliases:
+9. Alijasi tipova:
 
-- Use `type` keyword to create type aliases: `type UserID = number | string;`
+- Koristite ključnu riječ `type` za stvaranje alijasa tipova: `type UserID = number | string;`
 
-10. Type assertions:
+10. Potvrde tipova:
 
-- Use `as T` or `<T>` to assert type: `let value: any = "string value"; let strValue: string = value as string;`
-- Use `is` keyword for custom type guards: `function isNumber(value: any): value is number { return typeof value === 'number'; }`
+- Koristite `as T` ili `<T>` za potvrdu tipa: `let value: any = "string value"; let strValue: string = value as string;`
+- Koristite ključnu riječ `is` za prilagođene zaštitnike tipova: `function isNumber(value: any): value is number { return typeof value === 'number'; }`

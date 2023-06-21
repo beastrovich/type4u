@@ -1,9 +1,9 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-let numbers: Array<number> = [1, 2, '3'];
+let brojevi: Array<number> = [1, 2, '3'];
 
-// DO NOT CHANGE THE CODE BELOW
-console.log(numbers);
+// NE MIJENJAJTE KOD ISPOD
+console.log(brojevi);
 
-// not important
+// nevažno
 export {};

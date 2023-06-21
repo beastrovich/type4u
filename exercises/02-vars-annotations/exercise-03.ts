@@ -1,8 +1,8 @@
-//- I AM NOT DONE
-let isAdmin: ??? = false;
+// I AM NOT DONE
+let jeAdmin: ??? = false;
 
-// DO NOT CHANGE THE CODE BELOW
-console.log(`User is an admin: ${isAdmin}`);
+// NE MIJENJAJTE KOD ISPOD
+console.log(`Korisnik je administrator: ${jeAdmin}`);
 
-// not important
+// nebitno
 export {};

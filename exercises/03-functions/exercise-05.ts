@@ -1,31 +1,30 @@
-// DO NOT CHANGE THE IMPORTS
+// NE MIJENJAJTE IMPORT-e
 import { expect } from 'chai';
 
-//- I AM NOT DONE
+// I AM NOT DONE
 
-function greet(name: string): string;
-function greet(greeting: string, name: string): string;
+function pozdrav(ime: string): string;
+function pozdrav(pozdrav: string, ime: string): string;
 
-// Fix the function below
-function greet(nameOrGreeting: string, name: string) {
-  return nameOrGreeting + ', ' + name;
+// Popravi funkciju ispod
+function pozdrav(imeIliPozdrav: string, ime: string) {
+  return imeIliPozdrav + ', ' + ime;
 }
 
-// DO NOT CHANGE THE CODE BELOW
-console.log(greet('John')); // Should output "Hello, John"
-console.log(greet('Good morning', 'Jane')); // Should output "Good morning, Jane"
+// NE MIJENJAJ KOD ISPOD
+console.log(pozdrav('John')); // Trebalo bi ispisati "Hello, John"
+console.log(pozdrav('Dobro jutro', 'Jane')); // Trebalo bi ispisati "Dobro jutro, Jane"
 
-class Tests {
+class Testovi {
   @Test()
-  [`greet('John')`]() {
-    expect(greet('John')).eq('Hello, John');
+  [`pozdrav('John')`]() {
+    expect(pozdrav('John')).eq('Hello, John');
   }
 
   @Test()
-  [`greet('Good morning', 'Jane')`]() {
-    expect(greet('Good morning', 'Jane')).eq('Good morning, Jane');
+  [`pozdrav('Dobro jutro', 'Jane')`]() {
+    expect(pozdrav('Dobro jutro', 'Jane')).eq('Dobro jutro, Jane');
   }
 }
 
-// not important
 export {};

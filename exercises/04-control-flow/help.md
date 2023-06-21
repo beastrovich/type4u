@@ -1,58 +1,58 @@
-# Control Flow Statements
+# Kontrolne naredbe tijeka
 
-1. if...else statement:
+1. if...else naredba:
 
-- Make decisions based on a condition.
-- Syntax:
+- Donosite odluke na temelju uvjeta.
+- Sintaksa:
   ```typescript
-  if (condition) {
-    // code executed when condition is true
+  if (uvjet) {
+    // kod se izvršava kada je uvjet istinit
   } else {
-    // code executed when condition is false
+    // kod se izvršava kada je uvjet netočan
   }
   ```
 
-2. else if statement:
+2. else if naredba:
 
-- Evaluate multiple conditions in a sequence.
-- Syntax:
+- Procjenjuju se višestruki uvjeti u nizu.
+- Sintaksa:
   ```typescript
-  if (condition1) {
-    // code executed when condition1 is true
-  } else if (condition2) {
-    // code executed when condition1 is false and condition2 is true
+  if (uvjet1) {
+    // kod se izvršava kada je uvjet1 istinit
+  } else if (uvjet2) {
+    // kod se izvršava kada je uvjet1 netočan i uvjet2 je istinit
   } else {
-    // code executed when none of the conditions are true
+    // kod se izvršava kada niti jedan uvjet nije istinit
   }
   ```
 
-3. switch...case statement:
+3. switch...case naredba:
 
-- Execute different code blocks based on multiple conditions.
-- Syntax:
+- Izvršava različite blokove koda na temelju višestrukih uvjeta.
+- Sintaksa:
   ```typescript
-  switch (expression) {
-    case value1:
-      // code executed when expression is equal to value1
+  switch (izraz) {
+    case vrijednost1:
+      // kod se izvršava kada je izraz jednak vrijednosti1
       break;
-    case value2:
-      // code executed when expression is equal to value2
+    case vrijednost2:
+      // kod se izvršava kada je izraz jednak vrijednosti2
       break;
     default:
-      // code executed when none of the cases match
+      // kod se izvršava kada se niti jedan slučaj ne podudara
       break;
   }
   ```
 
-4. ternary operator:
+4. ternarni operator:
 
-- Shorten simple if...else statements for readability.
-- Syntax:
+- Skraćuje jednostavne if...else naredbe za bolju čitljivost.
+- Sintaksa:
   ```typescript
-  condition ? expressionIfTrue : expressionIfFalse;
+  uvjet ? izrazAkoIstinit : izrazAkoNetočan;
   ```
 
-Remember:
+Zapamtite:
 
-- Control flow statements help to create flexible and dynamic programs by allowing conditional execution of code blocks.
-- Consider code readability and maintainability when choosing a control flow statement for your use case.
+- Kontrolne naredbe tijeka pomažu stvaranju fleksibilnih i dinamičkih programa omogućujući uvjetno izvršavanje blokova koda.
+- Razmotrite čitljivost i održivost koda prilikom odabira kontrolne naredbe tijeka za vaš slučaj upotrebe.

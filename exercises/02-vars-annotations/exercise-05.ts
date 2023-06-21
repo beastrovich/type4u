@@ -1,17 +1,17 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-let firstName: str = 'John';
-let lastName: String = 'Doe';
-let age: number = '30';
-let country: string = 'USA';
-let isDeveloper: bool = true;
+let ime: str = 'John';
+let prezime: String = 'Doe';
+let godine: number = '30';
+let drzava: string = 'USA';
+let jeRazvijatelj: bool = true;
 
-// DO NOT CHANGE THE CODE BELOW
+// NE MIJENJATI KOD ISPOD
 console.log(
-  `My name is ${firstName} ${lastName}, and I'm a ${
-    isDeveloper ? 'developer' : 'non-developer'
-  } living in ${country} at ${age} years old.`
+  `Moje ime je ${ime} ${prezime}, i ja sam ${
+    jeRazvijatelj ? 'razvijatelj' : 'ne-razvijatelj'
+  } koji živi u ${drzava} sa ${godine} godina.`
 );
 
-// not important
+// nebitno
 export {};

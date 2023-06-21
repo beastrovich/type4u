@@ -1,16 +1,16 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-function formatName(name: { first: string; last: string }): string {
-  return `${name.firstName} ${name.lastName}`;
+function formatirajIme(punoIme: { prvo: string; zadnje: string }): string {
+  return `${punoIme.ime} ${punoIme.prezime}`;
 }
 
 // DO NOT CHANGE THE CODE BELOW
-const person = {
-  firstName: 'John',
-  lastName: 'Doe',
+const osoba = {
+  ime: 'John',
+  prezime: 'Doe',
 };
 
-console.log(formatName(person)); // Should output "John Doe"
+console.log(formatirajIme(osoba)); // Trebalo bi pisati "John Doe"
 
 // not important
 export {};

@@ -1,17 +1,17 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-const user: User = {
-  name: 'John',
-  years: 25,
+const korisnik: Korisnik = {
+  ime: 'John',
+  godine: 25,
 };
 
-// DO NOT CHANGE THE CODE BELOW
-type User = {
-  name: string;
-  age: number;
+// NE MIJENJATI KOD ISPOD
+type Korisnik = {
+  ime: string;
+  dob: number;
 };
 
-console.log(`User ${user.name} is ${user.age} years old.`);
+console.log(`Korisnik ${korisnik.ime} ima ${korisnik.dob} godina.`);
 
-// not important
+// nije važno
 export {};

@@ -1,59 +1,59 @@
-# Functions and Function Types
+# Funkcije i vrste funkcija
 
-1. Functions in TypeScript
+1. Funkcije u TypeScriptu
 
-- A function is a reusable piece of code that performs a specific task
-- Enforce type safety and improve code maintainability
+- Funkcija je ponovno upotrebljiv komad koda koji izvršava specifični zadatak
+- Osigurava tip sigurnosti i poboljšava održivost koda
 
-2. Defining Functions
+2. Definiranje funkcija
 
-- Declare functions with the `function` keyword, followed by the function name and parameters
+- Funkcije se deklariraju s ključnom riječi `function`, slijedi ime funkcije i parametri
 
   ```typescript
-  function functionName(param1: type, param2: type): returnType {
-    // function body
+  function imeFunkcije(param1: tip, param2: tip): povratniTip {
+    // tijelo funkcije
   }
   ```
 
-3. Function Types
+3. Vrste funkcija
 
-- Define a function signature to specify the expected types of function parameters and return value
+- Definirajte potpis funkcije da biste naveli očekivane vrste parametara funkcije i povratne vrijednosti
 
   ```typescript
-  type FunctionSignature = (param1: type, param2: type) => returnType;
+  type PotpisFunkcije = (param1: tip, param2: tip) => povratniTip;
   ```
 
-4. Arrow Functions
+4. Arrow funkcije
 
-- Alternative syntax for writing functions, often used for shorter and more concise expressions
+- Alternativna sintaksa za pisanje funkcija, često se koristi za kraće i konciznije izraze
 
   ```typescript
-  const arrowFunction = (param1: type, param2: type): returnType => {
-    // function body
+  const arrowFunkcija = (param1: tip, param2: tip): povratniTip => {
+    // tijelo funkcije
   };
   ```
 
-5. Optional and Default Parameters
+5. Opcionalni i zadani parametri
 
-- Mark parameters as optional with a question mark (`?`) or provide a default value with an equal sign (`=`)
+- Označite parametre kao opcionalne s upitnikom (`?`) ili pružite zadanu vrijednost s jednakosnim znakom (`=`)
 
   ```typescript
-  function optionalAndDefault(
-    param1?: type,
-    param2: type = defaultValue
-  ): returnType {
-    // function body
+  function opcionalniIDefault(
+    param1?: tip,
+    param2: tip = defaultVrijednost
+  ): povratniTip {
+    // tijelo funkcije
   }
   ```
 
-6. Function Overloading
+6. Preopterećenje funkcija
 
-- Provide multiple function signatures for a single function to support different parameter types and counts
+- Priložite više potpisa funkcija za jednu funkciju kako biste podržali različite vrste i brojeve parametara
 
   ```typescript
-  function overloadedFunction(param1: type1): returnType;
-  function overloadedFunction(param1: type2, param2: type2): returnType;
-  function overloadedFunction(param1: any, param2?: any): any {
-    // function body
+  function preopterećenaFunkcija(param1: tip1): povratniTip;
+  function preopterećenaFunkcija(param1: tip2, param2: tip2): povratniTip;
+  function preopterećenaFunkcija(param1: any, param2?: any): any {
+    // tijelo funkcije
   }
   ```

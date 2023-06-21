@@ -1,11 +1,11 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-function add(a, b): void {
+function zbroji(a, b): void {
   return a + b;
 }
 
-// DO NOT CHANGE THE CODE BELOW
-console.log(add(1, 2)); // Should output 3
+// NE MIJENJAJTE DONJI KOD
+console.log(zbroji(1, 2)); // Trebalo bi ispisati 3
 
-// not important
+// nije važno
 export {};

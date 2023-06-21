@@ -1,32 +1,32 @@
-//- I AM NOT DONE
+// I AM NOT DONE
 
-type User = {
+type Korisnik = {
   id: number;
-  username: string;
-  email: str;
-  firstName: string;
-  lastName: string;
-  posts: Array<Number>;
-  isLoggedIn: Bool;
+  korisničkoIme: string;
+  ePošta: str;
+  ime: string;
+  prezime: string;
+  objave: Array<Number>;
+  prijavljen: Bool;
 };
 
-// DO NOT CHANGE THE CODE BELOW
-const user: User = {
+// NE MIJENJAJTE DONJI KOD
+const korisnik: Korisnik = {
   id: 1,
-  username: 'johndoe',
-  email: 'john@example.com',
-  firstName: 'John',
-  lastName: 'Doe',
-  posts: [1, 2, 3, 4, 5],
-  isLoggedIn: true,
+  korisničkoIme: 'johndoe',
+  ePošta: 'john@example.com',
+  ime: 'John',
+  prezime: 'Doe',
+  objave: [1, 2, 3, 4, 5],
+  prijavljen: true,
 };
 
-// log the above information in a formatted string
+// u oblikovanom nizu zapišite gore navedene informacije
 console.log(
-  `User ${user.username} (${user.email}) is ${
-    user.isLoggedIn ? 'logged in' : 'not logged in'
+  `Korisnik ${korisnik.korisničkoIme} (${korisnik.ePošta}) je ${
+    korisnik.prijavljen ? 'prijavljen' : 'nije prijavljen'
   }` +
-    ` and has ${user.posts.length} posts.` +
-    ` His/her name is ${user.firstName} ${user.lastName}.` +
-    ` His/her id is ${user.id}.`
+    ` i ima ${korisnik.objave.length} objava.` +
+    ` Njegovo/je ime je ${korisnik.ime} ${korisnik.prezime}.` +
+    ` Njegov/Ostv nalog ima id ${korisnik.id}.`
 );

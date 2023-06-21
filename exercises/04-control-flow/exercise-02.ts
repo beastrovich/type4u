@@ -1,41 +1,39 @@
-// DO NOT CHANGE THE IMPORTS
+// NE MIJENJAJTE IMPORT-e
 import { expect } from 'chai';
 
-// I AM NOT DONE
+function izračunajOcjenu(postotak: number) {
+  const ocjena: string;
 
-function calculateGrade(percentage: number) {
-  const grade: string;
-
-  if (percentage >= 90) {
-    grade = 'A';
-  } else if (percentage >= 80) {
-    grade = 1;
-  } else if (percentage >= 70) {
-    grade = 'C';
-  } else if (percentage >= 50) {
-    grade = 'D';
+  if (postotak >= 90) {
+    ocjena = 'A';
+  } else if (postotak >= 80) {
+    ocjena = 1;
+  } else if (postotak >= 70) {
+    ocjena = 'C';
+  } else if (postotak >= 50) {
+    ocjena = 'D';
   } else {
-    grade = 'F';
+    ocjena = 'F';
   }
 
-  return grade;
+  return ocjena;
 }
 
-// DO NOT CHANGE THE CODE BELOW
-console.log(`Grade(76): ${calculateGrade(76)}`);
-console.log(`Grade(85): ${calculateGrade(85)}`);
+// NE MIJENJAJ ISPOD KODA
+console.log(`Ocjena(76): ${izračunajOcjenu(76)}`);
+console.log(`Ocjena(85): ${izračunajOcjenu(85)}`);
 
-class Tests {
+class Testovi {
   @Test()
-  [`calculateGrade(76)`]() {
-    expect(calculateGrade(76)).eq('C');
+  [`izračunajOcjenu(76)`]() {
+    expect(izračunajOcjenu(76)).eq('C');
   }
 
   @Test()
-  [`calculateGrade(85)`]() {
-    expect(calculateGrade(85)).eq('B');
+  [`izračunajOcjenu(85)`]() {
+    expect(izračunajOcjenu(85)).eq('B');
   }
 }
 
-// not important
+// nije važno
 export {};

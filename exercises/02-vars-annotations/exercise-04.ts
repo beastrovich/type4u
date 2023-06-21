@@ -1,11 +1,11 @@
-//- I AM NOT DONE
-let coordinates: number,
+// I AM NOT DONE
+let koordinate: number,
   number = [36.1627, -86.7816];
 
-// DO NOT CHANGE THE CODE BELOW
+// NE MIJENJAJTE KOD ISPOD
 console.log(
-  `My location's coordinates are: (${coordinates[0]}, ${coordinates[1]})`
+  `Koordinate moje lokacije su: (${koordinate[0]}, ${koordinate[1]})`
 );
 
-// not important
+// nebitno
 export {};
