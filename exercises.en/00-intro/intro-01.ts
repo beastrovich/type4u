@@ -9,3 +9,6 @@ When you are done with an exercise, remove the "// I AM NOT DONE" comment from t
 `;
 
 console.log(introText);
+
+// not important
+export {};

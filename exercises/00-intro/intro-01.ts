@@ -9,3 +9,6 @@ Kad završite vježbu, uklonite komentar "// I AM NOT DONE" iz datoteke i spremi
 `;
 
 console.log(introText);
+
+// nebitno
+export {};
